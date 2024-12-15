@@ -1,0 +1,43 @@
+/* Styles for the header */
+header {
+    background-color: #4094e9; /* or any background color you prefer */
+    padding: 10px 20px;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fffafa; /* or any text color you prefer */
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #000000; /* or any link color you prefer */
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  header nav ul li a:hover{
+    opacity: .9;
+    cursor: pointer;
+    color: antiquewhite;
+}
+  
